@@ -1,0 +1,12 @@
+#goal definition
+nav2_msgs/AutoDocking auto_docking
+string behavior_tree
+---
+#result definition
+bool status
+int8 error_code
+string error_reason
+---
+#feedback
+bool feature_detected
+int8 retries_completed

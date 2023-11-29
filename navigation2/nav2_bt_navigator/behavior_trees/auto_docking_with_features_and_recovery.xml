@@ -1,0 +1,21 @@
+<!--
+  This Behavior Tree does auto docking based on provided features with recovery
+-->
+
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <RecoveryNode>
+      <ReactiveSequence name="AutoDockingWithRecovery">
+        <!-- <Spin spin_dist="1.57"/> -->
+        <!-- <Wait wait_duration="5"/> -->
+        <ArucoDetection aruco_detection="" />
+        <ArucoTracking aruco_tracking="" />
+      </ReactiveSequence>
+      <ReactiveFallback name="RecoveryFallback">
+          <RoundRobin name="RecoveryActions">
+            <Wait wait_duration="5"/>
+          </RoundRobin>
+      </ReactiveFallback>
+    </RecoveryNode>
+  </BehaviorTree>
+</root>

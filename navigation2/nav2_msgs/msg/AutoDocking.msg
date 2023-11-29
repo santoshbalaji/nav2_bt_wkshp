@@ -1,0 +1,5 @@
+builtin_interfaces/Time timestamp
+float32 search_angle_left
+float32 search_angle_right
+float32 stopping_distance
+int8 retry_limit

@@ -1,0 +1,18 @@
+#goal definition
+float32 feature_length
+float32 feature_width
+float32 search_sweep_radius
+builtin_interfaces/Duration time
+---
+#result definition
+bool status
+geometry_msgs/PoseStamped center_pose_for_feature
+geometry_msgs/PoseStamped[] holding_poses_for_feature
+int8 error_code
+string error_reason
+builtin_interfaces/Duration total_elapsed_time
+---
+#feedback
+bool feature_detected
+int8 retries_completed
+builtin_interfaces/Duration time_left

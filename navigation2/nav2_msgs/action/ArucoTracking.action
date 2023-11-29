@@ -1,0 +1,8 @@
+#request definition
+string aruco_tracking_msg
+---
+#result definition
+builtin_interfaces/Duration total_elapsed_time
+---
+#feedback
+string feedback
