@@ -32,3 +32,11 @@ This repository is for simulating the customized nav2 behavior tree
 ```
   ros2 run turtlebot_gazebo feature_detection
 ```
+
+## Demos
+![1](docs/4.png)
+
+![2](docs/5.png)
+
+![3](docs/6.png)
+
