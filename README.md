@@ -40,3 +40,4 @@ This repository is for simulating the customized nav2 behavior tree
 
 ![3](docs/6.png)
 
+![3](docs/7.png)
